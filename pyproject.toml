@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "shae-basic-text-adventure"
+version = "0.1.0"
+description = "A BASIC-inspired terminal text adventure written in pure Python 3 standard library."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "spdedsec", email = "legendsatya7272@gmail.com" }]
+keywords = ["text-adventure", "cli-game", "python", "basic", "interactive-fiction", "shae"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Environment :: Console",
+    "Topic :: Games/Entertainment :: Role-Playing",
+]
+dependencies = []
+
+[project.scripts]
+shae-adventure = "main:main"
+
+[project.urls]
+Homepage = "https://github.com/spdedsec/shae-basic-text-adventure"
+Repository = "https://github.com/spdedsec/shae-basic-text-adventure"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+py-modules = ["main"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

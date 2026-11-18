@@ -1,0 +1,109 @@
+# Python build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+install/
+*.egg
+MANIFEST
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+install/
+*.egg
+MANIFEST
+.coverage
+.pytest_cache/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Terminal log files
+tmux-session-*/*.log
+
+# Log files
+*.log
+*.log.*
+
+# Temporary files
+tmp/
+*.tmp
+*.temp
+*.bak
+*.orig
+*.rej
+*.patch
+
+# Package-specific
+.DS_Store
+.AppleDouble
+.AppleSidebar
+.Spotlight-V100
+"## Contents"
+"Load Metadata"
+"Mobile Safari"
+
+# SHAE-specific
+dotfile
+$(shell)
+^$
